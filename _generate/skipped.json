@@ -1,0 +1,395 @@
+{
+  "linux_amd64": {
+    "additional_skipped_functions": [
+      "if_nameindex",
+      "sigaction",
+      "sigstack",
+      "statvfs"
+    ],
+    "additional_skipped_types": [],
+    "skip_C_blocks_in_preprocessing": false,
+    "additional_skipped_variables": [
+      "timezone"
+    ],
+    "missing_library_symbols_skipped_functions": [
+      "alloca",
+      "bindresvport6",
+      "crypt",
+      "inet_net_ntop",
+      "inet_net_pton",
+      "inet_neta"
+    ],
+    "explicitly_ignored_functions": [
+      "vfprintf",
+      "vprintf",
+      "vsprintf",
+      "vsnprintf",
+      "vasprintf",
+      "vdprintf",
+      "vfscanf",
+      "vscanf",
+      "vsscanf",
+      "fread",
+      "fwrite",
+      "strxfrm",
+      "strcspn",
+      "strspn",
+      "strlen",
+      "stat",
+      "if_nameindex",
+      "sigaction",
+      "sigstack",
+      "statvfs",
+      "alloca",
+      "bindresvport6",
+      "crypt",
+      "inet_net_ntop",
+      "inet_net_pton",
+      "inet_neta"
+    ],
+    "explicitly_ignored_types": [
+      "va_list",
+      "__gnuc_va_list",
+      "__cfloat128",
+      "_Float128"
+    ],
+    "generator_ignored_functions": [
+      {
+        "name": "__bswap_16",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__bswap_32",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__bswap_64",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__uint16_identity",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__uint32_identity",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__uint64_identity",
+        "reason": "inline function but no CFlags in config"
+      }
+    ],
+    "generator_ignored_types": [],
+    "duplicate_variables_removed": []
+  },
+  "darwin_arm64": {
+    "additional_skipped_functions": [
+      "if_nameindex",
+      "sigaction",
+      "sigvec",
+      "statvfs"
+    ],
+    "additional_skipped_types": [],
+    "skip_C_blocks_in_preprocessing": true,
+    "additional_skipped_variables": [
+      "timezone",
+      "KERNEL_SECURITY_TOKEN",
+      "KERNEL_AUDIT_TOKEN"
+    ],
+    "missing_library_symbols_skipped_functions": [
+      "add_profil",
+      "alloca",
+      "getdirentries",
+      "longjmperror",
+      "pfctlinput",
+      "profil",
+      "setgrfile",
+      "unwhiteout"
+    ],
+    "explicitly_ignored_functions": [
+      "vfprintf",
+      "vprintf",
+      "vsprintf",
+      "vsnprintf",
+      "vasprintf",
+      "vdprintf",
+      "vfscanf",
+      "vscanf",
+      "vsscanf",
+      "stat",
+      "if_nameindex",
+      "sigaction",
+      "sigvec",
+      "statvfs",
+      "add_profil",
+      "alloca",
+      "getdirentries",
+      "longjmperror",
+      "pfctlinput",
+      "profil",
+      "setgrfile",
+      "unwhiteout"
+    ],
+    "explicitly_ignored_types": [
+      "va_list"
+    ],
+    "generator_ignored_functions": [
+      {
+        "name": "_OSSwapInt16",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "_OSSwapInt32",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "_OSSwapInt64",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "OSReadSwapInt16",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "OSReadSwapInt32",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "OSReadSwapInt64",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "OSWriteSwapInt16",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "OSWriteSwapInt32",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "OSWriteSwapInt64",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__darwin_check_fd_set",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__darwin_fd_isset",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__darwin_fd_set",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__darwin_fd_clr",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isascii",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__istype",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__isctype",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__wcwidth",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isalnum",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isalpha",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isblank",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "iscntrl",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isdigit",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isgraph",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "islower",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isprint",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "ispunct",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isspace",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isupper",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isxdigit",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "toascii",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "tolower",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "toupper",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "digittoint",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "ishexnumber",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isideogram",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isnumber",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isphonogram",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isrune",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "isspecial",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "__sigbits",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "fread",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "fwrite",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "__sputc",
+        "reason": "inline function but no CFlags in config"
+      },
+      {
+        "name": "strcspn",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "strlen",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "strspn",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "strxfrm",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "strlcat",
+        "reason": "function with unsupported features"
+      },
+      {
+        "name": "strlcpy",
+        "reason": "function with unsupported features"
+      }
+    ],
+    "generator_ignored_types": [
+      {
+        "kind": "typedef",
+        "name": "__darwin_va_list",
+        "reason": "unsupported underlying type (107: __builtin_va_list)"
+      },
+      {
+        "kind": "class",
+        "name": "__darwin_arm_neon_state64",
+        "reason": "unsupported features"
+      },
+      {
+        "kind": "class",
+        "name": "__darwin_arm_neon_state",
+        "reason": "unsupported features"
+      },
+      {
+        "kind": "class",
+        "name": "__darwin_mcontext64",
+        "reason": "unsupported features"
+      },
+      {
+        "kind": "typedef",
+        "name": "mcontext_t",
+        "reason": "unsupported underlying type (101: struct __darwin_mcontext64 *)"
+      },
+      {
+        "kind": "class",
+        "name": "__darwin_ucontext",
+        "reason": "unsupported features"
+      },
+      {
+        "kind": "typedef",
+        "name": "ucontext_t",
+        "reason": "unsupported underlying type (105: struct __darwin_ucontext)"
+      },
+      {
+        "kind": "typedef",
+        "name": "arm_neon_state_t",
+        "reason": "unsupported underlying type (105: struct __darwin_arm_neon_state)"
+      },
+      {
+        "kind": "typedef",
+        "name": "arm_neon_state32_t",
+        "reason": "unsupported underlying type (105: struct __darwin_arm_neon_state)"
+      },
+      {
+        "kind": "typedef",
+        "name": "arm_neon_state64_t",
+        "reason": "unsupported underlying type (105: struct __darwin_arm_neon_state64)"
+      }
+    ],
+    "duplicate_variables_removed": [
+      {
+        "name": "Suboptarg",
+        "symbol": "C.suboptarg",
+        "removed_from": "unistd.go",
+        "kept_in": "stdlib.go"
+      }
+    ]
+  }
+}

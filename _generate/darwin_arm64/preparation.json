@@ -1,0 +1,45 @@
+{
+  "skipped_variables": [
+    "timezone",
+    "KERNEL_SECURITY_TOKEN",
+    "KERNEL_AUDIT_TOKEN"
+  ],
+  "platform": "darwin_arm64",
+  "headers": 50,
+  "preprocessor_command": [
+    "clang",
+    "-E",
+    "-dD",
+    "-CC",
+    "-ferror-limit=0",
+    "-resource-dir",
+    "/opt/homebrew/Cellar/llvm@22/22.1.8/lib/clang/22",
+    "-x",
+    "c",
+    "-isysroot",
+    "/Users/haolan/project/macosx-sdks/MacOSX14.0.sdk",
+    "-mmacosx-version-min=14.0",
+    "-fno-blocks",
+    "/Users/haolan/project/libc/_survey/common/darwin_arm64/libc.h"
+  ],
+  "tag_replacements": {
+    "flock": 2,
+    "wait": 1
+  },
+  "unchanged_C_function_declarations": 975,
+  "flock": [
+    [
+      "flock",
+      "_flock",
+      "int (int, int)"
+    ]
+  ],
+  "wait": [
+    [
+      "wait",
+      "_wait",
+      "pid_t (int *)"
+    ]
+  ],
+  "snapshot_formatting": "Trailing whitespace normalized; one final newline. One comment indentation normalized from spaces plus tab to spaces."
+}
